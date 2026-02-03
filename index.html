@@ -2,25 +2,59 @@
 <html>
   <head>
     <title>Daytons Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
-  <body>
+  <body class="blue-50-textgray800 p-4 font-sans">
     
-    <div id="all-contents">
+    <div id="all-contents" calss=""max-w-4x1 mx-auto">
       <nav>
-<h1>Dayton's Amazing Website</h1>
-<ul id=""nav-ul">
-<li class=""nav-li">
-<a href=""index.html">Home</a>
-</li>
-<li class=""nav-li>
-<a href=""portfolio.html">Portfolio</a>
+
 </li>
 </ul>
-      </nav>
+<nav class="bg-blue-500 p-4 rounded-lg mb-4 shadow-md">
+  <div class="flex justify-between items-center">
+    <h1 class="text-white text-2xl font-bold">Dayton's Amazing Website</h1>
+    <ul class="flex space-x-4">
+      <li>
+        <a href="index.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Home</a>
+      </li>
+      <li>
+        <a href="portfolio.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-      <main>
+      <main class="bg-white rounded-lg shadow-lg p-6">
+  <div class="flex flex-col md:flex-row gap-6">
+    <!-- Sidebar with image -->
+    <div class="md:w-1/3">
+      <img
+        class="w-full max-w-xs rounded-lg shadow-md mx-auto"
+        src="YOUR_IMAGE_URL_HERE"
+        alt="Profile picture"
+      />
+    </div>
+
+    <!-- Content section -->
+    <div class="md:w-2/3">
+      <h2 class="text-3xl font-bold text-gray-900 mb-2">Dayton Vinson</h2>
+      <p class="text-lg text-gray-600 mb-6">Student at Covington High School</p>
+
+      <!-- Interests section -->
+      <div class="border-2 border-gray-300 rounded-lg p-4">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">My Interests</h3>
+        <ul class="space-y-2">
+          <li class="bg-blue-100 px-3 py-2 rounded text-blue-800">Football</li>
+          <li class="bg-pink-100 px-3 py-2 rounded text-pink-800">Cooking</li>
+          <li class="bg-green-100 px-3 py-2 rounded text-green-800">Track</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
  
   <div class="sidebar">
 <img class="sidebar-img" src="https://statico.profootballnetwork.com/wp-content/uploads/2025/09/28130107/revisiting-george-pickens-trade-09-28-25-1920x1280.jpg">
@@ -28,15 +62,11 @@
 
  
   <div class="content">
-    <h2>Dayton Vinson</h2>
-    <p>Student at Covington High</p>
+  
+  
 
 <div id=""interests">
-<h3>Interests</h3>
-<ul>
-<li>Football</li>
-<li>Cooking</li>
-<li>Track</li>
+
 </ul>
 </div>
 </div>
