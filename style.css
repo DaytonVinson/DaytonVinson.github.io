@@ -10,7 +10,6 @@ body {
     margin: auto;
 }
 
-
 nav {
     background: rgb(231, 235, 0);
     margin: 0 auto;
@@ -75,11 +74,6 @@ main {
 h2, h3 {
     margin: 0px;
 }
-/* Portfolio styles */
-.content h1 {
-  color: black;
-}
-
 #portfolio {
   list-style-type: none;
   padding-left: 0;
